@@ -5170,6 +5170,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ac4f7d69-e217-44ce-bd2a-a1b980b086bc")
 		)
@@ -6270,6 +6281,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "110acc85-0d90-43ce-bd4d-4073c75bc534")
 		)
@@ -6515,6 +6537,17 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8"
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7433"
 			(at 69.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9041,6 +9074,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 218.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ac4f7d69-e217-44ce-bd2a-a1b980b086bd")
 		)
@@ -9572,6 +9616,17 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8"
+			(at 69.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7433"
 			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11012,6 +11067,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7426"
+			(at 62.23 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ac4f7d69-e217-44ce-bd2a-a1b980b086be")
 		)
@@ -11334,6 +11400,17 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 135.89 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7426"
 			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12430,6 +12507,17 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 66.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7426"
 			(at 66.04 128.27 0)
 			(hide yes)
 			(show_name no)

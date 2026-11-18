@@ -15406,7 +15406,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e678773d-3e33-4fb3-9f61-ea95c6ec7da2")
 		(property "Reference" "BT2"
 			(at 181.61 253.4284 0)
