@@ -1578,338 +1578,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:0"
 			(power global)
 			(pin_numbers
@@ -2527,10 +2195,10 @@
 		)
 		(uuid "1f515ab3-70e4-411e-8aad-1608fdf8b32a")
 	)
-	(text_box "Testirane vrednosti \n1k i 2k"
+	(text_box "5x 750 Hz low pass"
 		(exclude_from_sim no)
-		(at 64.77 59.69 0)
-		(size 21.59 5.08)
+		(at 67.31 60.96 0)
+		(size 22.86 3.9483)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2542,15 +2210,16 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "2ff28e69-551f-445b-9db5-9d1cb0139095")
 	)
-	(text_box "R8 i R9 ne sme biti prevelik, \nprevelik gain će zasiti opamp"
+	(text_box "10x 150 Hz low pass"
 		(exclude_from_sim no)
-		(at 128.27 46.99 0)
-		(size 31.75 5.08)
+		(at 147.32 51.1571 0)
+		(size 13.97 5.9929)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2562,15 +2231,16 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify left top)
 		)
-		(uuid "79cd57d6-a36d-440e-bd4d-b02cac65dbba")
+		(uuid "39568683-74be-4615-bf63-d02f054d106d")
 	)
-	(text_box "Zameni C33 i C13\nZameni R41 i R15"
+	(text_box "10x 150 Hz low pass"
 		(exclude_from_sim no)
-		(at 92.71 15.24 0)
-		(size 21.59 5.9929)
+		(at 205.74 15.24 0)
+		(size 13.97 5.9929)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2582,50 +2252,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify left top)
 		)
-		(uuid "9d80e173-ac55-41c5-b796-b05545252cc0")
-	)
-	(text_box "Max output swing: 1.4 Vpp\nDC bias at: 1.25 V"
-		(exclude_from_sim no)
-		(at 128.27 83.82 0)
-		(size 29.21 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bee10e19-97aa-4800-b5f3-b816bf970f02")
-	)
-	(text_box "Move R3 to C9, remove C9"
-		(exclude_from_sim no)
-		(at 185.42 95.6071 0)
-		(size 19.05 5.9929)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c822c4c1-7188-4562-be8d-5fe635108e6c")
+		(uuid "ffa1e842-586d-4b0c-998c-5d33a56ee3e3")
 	)
 	(junction
 		(at 205.74 40.64)
@@ -2692,12 +2323,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3397b776-ba52-4dda-bc93-98ab3579bae6")
-	)
-	(junction
-		(at 205.74 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3542345c-a17c-4c77-b68d-050320e03bcb")
 	)
 	(junction
 		(at 78.74 115.57)
@@ -2838,16 +2463,16 @@
 		(uuid "c0a5f8f0-769a-4b97-8b68-534acfd5b434")
 	)
 	(junction
+		(at 250.19 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccffc9d2-063f-4064-b430-699d6a7b42b4")
+	)
+	(junction
 		(at 101.6 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d516aa08-c928-4139-8c1e-deefd76fada5")
-	)
-	(junction
-		(at 250.19 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6db0451-8241-4277-81d7-93417784152e")
 	)
 	(junction
 		(at 147.32 74.93)
@@ -2935,16 +2560,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 43.18) (xy 255.27 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "035d7f5b-f437-489c-9057-75b900ba44c7")
-	)
-	(wire
-		(pts
 			(xy 41.91 115.57) (xy 41.91 128.27)
 		)
 		(stroke
@@ -2972,16 +2587,6 @@
 			(type default)
 		)
 		(uuid "0527a6c3-b962-441f-9121-7b0b72d4105e")
-	)
-	(wire
-		(pts
-			(xy 205.74 45.72) (xy 210.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068bbe51-1fb2-47b7-9c9c-08adc93b4f2f")
 	)
 	(wire
 		(pts
@@ -3035,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 148.59 62.23)
+			(xy 147.32 62.23) (xy 160.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3075,16 +2680,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 52.07) (xy 205.74 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b7c179-7ce3-401a-8c23-838eb38a6951")
-	)
-	(wire
-		(pts
 			(xy 123.19 43.18) (xy 132.08 43.18)
 		)
 		(stroke
@@ -3112,16 +2707,6 @@
 			(type default)
 		)
 		(uuid "1361f63e-2b03-4cfb-b539-838a167170fa")
-	)
-	(wire
-		(pts
-			(xy 205.74 52.07) (xy 205.74 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1415b616-f574-41de-b4d2-3888eb9a1ae9")
 	)
 	(wire
 		(pts
@@ -3245,13 +2830,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 43.18) (xy 250.19 43.18)
+			(xy 250.19 43.18) (xy 255.27 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29b025e4-76ba-46af-b1cf-2b37d6e227b8")
+		(uuid "29e09dcc-dbfd-473a-9bda-df9c1bd65620")
 	)
 	(wire
 		(pts
@@ -3335,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 134.62) (xy 278.13 132.08)
+			(xy 193.04 80.01) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3402,16 +2987,6 @@
 			(type default)
 		)
 		(uuid "413763d6-8cc8-4444-a83c-33534885fa26")
-	)
-	(wire
-		(pts
-			(xy 255.27 52.07) (xy 242.57 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "433cdcb9-71e2-4d8c-9374-6656416904bd")
 	)
 	(wire
 		(pts
@@ -3482,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "4c1f7891-189a-4fb3-9841-a9a549a36ada")
+	)
+	(wire
+		(pts
+			(xy 209.55 90.17) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2e1380-086d-466b-b121-6c7b35c26169")
 	)
 	(wire
 		(pts
@@ -3585,16 +3170,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 43.18) (xy 255.27 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a74031d-ea3b-49eb-93f3-89dc669ef281")
-	)
-	(wire
-		(pts
 			(xy 115.57 91.44) (xy 115.57 92.71)
 		)
 		(stroke
@@ -3622,16 +3197,6 @@
 			(type default)
 		)
 		(uuid "61754831-d314-4d3d-b112-a0301384052a")
-	)
-	(wire
-		(pts
-			(xy 209.55 93.98) (xy 209.55 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d72ca82-c0f2-4b0b-99a4-5737b61920b3")
 	)
 	(wire
 		(pts
@@ -3905,13 +3470,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 45.72) (xy 205.74 45.72)
+			(xy 198.12 45.72) (xy 210.82 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "877fc4f1-7b96-4403-8dd7-d266ee845f58")
+	)
+	(wire
+		(pts
+			(xy 209.55 102.87) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a97304-c049-4086-b5ba-3bc1fbf14674")
 	)
 	(wire
 		(pts
@@ -3982,16 +3557,6 @@
 			(type default)
 		)
 		(uuid "9abe43d0-436d-46c8-a426-6a59d44ebcc9")
-	)
-	(wire
-		(pts
-			(xy 158.75 62.23) (xy 160.02 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aecebb4-f264-44e1-adc9-1a2440513877")
 	)
 	(wire
 		(pts
@@ -4105,7 +3670,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 134.62) (xy 278.13 134.62)
+			(xy 190.5 80.01) (xy 193.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4165,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 43.18) (xy 232.41 43.18)
+			(xy 229.87 43.18) (xy 250.19 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4485,16 +4050,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 101.6) (xy 209.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c1453a-88e6-4dfa-9a90-06555904214d")
-	)
-	(wire
-		(pts
 			(xy 27.94 160.02) (xy 35.56 160.02)
 		)
 		(stroke
@@ -4713,7 +4268,7 @@
 			)
 		)
 	)
-	(global_label "GAIN_5"
+	(global_label "GAIN_50"
 		(shape output)
 		(at 160.02 62.23 0)
 		(fields_autoplaced yes)
@@ -4725,7 +4280,7 @@
 		)
 		(uuid "78e71b6b-9b9f-4873-aeb3-1d413104b830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.0595 62.23 0)
+			(at 170.6857 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +4388,7 @@
 			)
 		)
 	)
-	(global_label "GAIN_5"
+	(global_label "GAIN_50"
 		(shape input)
 		(at 198.12 45.72 180)
 		(fields_autoplaced yes)
@@ -4845,7 +4400,7 @@
 		)
 		(uuid "c0048e91-c43a-436b-96d2-75c72226b242")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0805 45.72 0)
+			(at 187.4543 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,7 +4510,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 275.59 134.62 180)
+		(at 190.5 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5049,95 +4604,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "04d6adac-4b06-4770-bb7b-bfb53f5ddc62")
-		(property "Reference" "C9"
-			(at 200.66 84.074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 200.914 86.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 204.47 89.2048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 200.66 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c81a8081-b6ca-42de-b668-05bf32d3fc98")
-		)
-		(pin "2"
-			(uuid "be4cc7d4-561f-4ed3-a0a4-d6566e089614")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5255,8 +4721,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 153.67 62.23 0)
+		(lib_id "Device:R")
+		(at 135.89 81.28 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5264,32 +4731,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0b68ffcf-fe22-4903-a351-d8f28ed06796")
-		(property "Reference" "JP9"
-			(at 155.194 64.77 0)
+		(uuid "0877af15-cf19-4943-b1a6-d7252bbb6bd6")
+		(property "Reference" "R16"
+			(at 135.89 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 152.4001 63.5 90)
-			(hide yes)
+		(property "Value" "10k"
+			(at 135.89 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 153.67 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.89 79.502 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +4764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 62.23 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,9 +4774,8 @@
 				)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 153.67 62.23 0)
-			(hide yes)
+		(property "Description" ""
+			(at 135.89 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5321,16 +4784,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "eda2eed2-16f4-4c31-b993-2ea79f6da0af")
+		(property "LCSC" "C25804"
+			(at 135.89 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "8076be23-0513-4cad-aaba-41a3e9373800")
+			(uuid "d244e6fa-f0b7-4934-a024-610f7329a461")
+		)
+		(pin "2"
+			(uuid "694d0a6b-6a2f-4cf6-97e4-8fc7fe84cb53")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "JP9")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5499,96 +4973,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 135.89 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13fd66d7-abf6-4875-99a5-1ead4af2f986")
-		(property "Reference" "C15"
-			(at 135.89 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 135.89 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 132.08 75.8952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C57112"
-			(at 135.89 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "838037b1-a19b-4767-9f41-b6abd1c973db")
-		)
-		(pin "2"
-			(uuid "9c31809e-0715-4ca1-9f03-f9baec35a400")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5832,7 +5216,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 278.13 132.08 0)
+		(at 193.04 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5844,7 +5228,7 @@
 		(fields_autoplaced yes)
 		(uuid "20800e0f-c011-4bca-8ae6-8faa72d47597")
 		(property "Reference" "#PWR061"
-			(at 278.13 135.89 0)
+			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,7 +5239,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 278.13 127 0)
+			(at 193.04 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5865,7 +5249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 132.08 0)
+			(at 193.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 132.08 0)
+			(at 193.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,7 +5271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 278.13 132.08 0)
+			(at 193.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,95 +5551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 217.17 25.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26ec3e40-5a3e-4fe7-a49b-b4a4506ca6d4")
-		(property "Reference" "R60"
-			(at 211.582 23.876 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1Meg"
-			(at 222.758 24.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 217.17 27.178 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22935"
-			(at 217.17 25.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "158c1bed-34a4-47d3-b578-ff5991da7a5e")
-		)
-		(pin "2"
-			(uuid "c3a72672-7f0d-4bd0-a63a-8191a3a12e9b")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 119.38 124.46 0)
 		(unit 3)
@@ -6361,6 +5656,85 @@
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "U5")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a60d7d2-f006-482c-a1db-621e449cdb02")
+		(property "Reference" "#PWR051"
+			(at 209.55 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 209.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "788bc345-a28a-4cc4-9301-078555004ae6")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "#PWR051")
+					(unit 1)
 				)
 			)
 		)
@@ -6722,7 +6096,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 36.83 270)
+		(at 90.17 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6731,29 +6105,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39fe6c62-f276-4f0b-bd68-2d488a4d3fc2")
-		(property "Reference" "C13"
-			(at 135.89 29.21 90)
+		(uuid "3846458d-9332-442c-b738-f072996301eb")
+		(property "Reference" "C32"
+			(at 93.98 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10n"
-			(at 135.89 31.75 90)
+			(at 93.98 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 132.08 37.7952 0)
+			(at 91.1352 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 36.83 0)
+			(at 90.17 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 36.83 0)
+			(at 90.17 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6785,7 +6161,7 @@
 			)
 		)
 		(property "LCSC" "C57112"
-			(at 135.89 36.83 90)
+			(at 90.17 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,97 +6172,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "df5da7ab-578a-4de5-bc21-970d48caa393")
+			(uuid "04cb95a8-8153-4ffd-ad41-78febba63af7")
 		)
 		(pin "2"
-			(uuid "f8cc6f56-3714-40ab-bd99-1b45271234fa")
+			(uuid "4b05ee23-ce52-441b-844e-8436684dce08")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 237.49 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f9f4d10-78b0-426b-91a1-11c220d4f759")
-		(property "Reference" "JP3"
-			(at 239.014 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 236.2201 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 237.49 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 237.49 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d960fbf7-529c-4c3f-8963-50246aa6f789")
-		)
-		(pin "1"
-			(uuid "27c96d23-09aa-4855-91b2-76cdfbc87eb1")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "JP3")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6979,6 +6273,95 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "436897bb-a2ec-453a-a8f7-d5a5e45f9c4d")
+		(property "Reference" "R60"
+			(at 211.582 23.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 222.758 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 27.178 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 217.17 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d40de36-d2c8-4a98-a7ab-1624275f84b1")
+		)
+		(pin "2"
+			(uuid "bb3008ff-ecb8-48db-8cd6-b0530e3b250d")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -7148,86 +6531,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 209.55 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47ce6ec2-7328-4283-b6e0-f12d6523835a")
-		(property "Reference" "#GND05"
-			(at 209.55 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 209.5499 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 209.55 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 209.55 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83e01895-cfac-4485-9860-791ff942c913")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "#GND05")
 					(unit 1)
 				)
 			)
@@ -7486,95 +6789,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51a1b7ef-723f-4d4d-bd72-27bd35c40608")
-		(property "Reference" "R15"
-			(at 130.81 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 140.97 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 135.89 44.958 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 135.89 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef17d52e-1ac7-43f3-b681-13370ccae662")
-		)
-		(pin "2"
-			(uuid "fd0c2cd2-b90e-4069-a91a-b52a408feccd")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7917,6 +7131,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6491b834-b252-41a6-87f5-442d963d30b1")
+		(property "Reference" "R3"
+			(at 199.39 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200k"
+			(at 200.66 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 200.66 91.948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25811"
+			(at 200.66 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea408d13-c7b4-4724-9e31-83dd552750b4")
+		)
+		(pin "2"
+			(uuid "ba230a95-db09-41a7-b81d-552fa3a5a9b4")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 39.37 166.37 90)
 		(mirror x)
@@ -8001,6 +7304,96 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "654c455d-f115-4cbe-8a11-3e0af9d9d0c0")
+		(property "Reference" "C13"
+			(at 135.89 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 135.89 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 132.08 37.7952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 135.89 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02dcc3dd-cabc-425d-bae2-ed05628cb739")
+		)
+		(pin "2"
+			(uuid "33eab34f-4ec5-45ba-9846-53b88570edcc")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8259,6 +7652,98 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 90.17 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70783bef-2165-45f3-a5e1-cb700d4d1ad8")
+		(property "Reference" "C33"
+			(at 93.98 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 93.98 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 91.1352 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 90.17 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e464564-86d8-4de2-925e-63ca0aeec42c")
+		)
+		(pin "2"
+			(uuid "4220dc63-2829-4829-a995-4e029ea5383c")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 154.94 124.46 180)
 		(unit 1)
 		(body_style 1)
@@ -8350,8 +7835,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 74.93 180)
+		(lib_id "Device:R")
+		(at 135.89 43.18 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8359,32 +7845,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "773d39d0-ec80-4cdc-b6a3-a9fea375f1cc")
-		(property "Reference" "C32"
-			(at 93.98 73.6599 0)
+		(uuid "7b874e0b-b609-4281-aedd-040e3bcb0648")
+		(property "Reference" "R15"
+			(at 135.89 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100n"
-			(at 93.98 76.1999 0)
+		(property "Value" "10k"
+			(at 135.89 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 89.2048 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 135.89 41.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +7878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 74.93 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +7889,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 74.93 0)
+			(at 135.89 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8415,8 +7898,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
-			(at 90.17 74.93 90)
+		(property "LCSC" "C25804"
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8427,107 +7910,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d2a76a9-496d-4fab-91cb-f09e1c7e1623")
+			(uuid "95eb549d-0ea0-41a2-bf4d-7956a18f7dbc")
 		)
 		(pin "2"
-			(uuid "7f8659e3-dfe4-4652-ad59-1a342e5f3579")
+			(uuid "b2090f60-5251-47c5-b6b4-40e4f1261555")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 90.17 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78ce5404-ea34-4f4e-b259-23d6fe9bfb50")
-		(property "Reference" "C33"
-			(at 93.98 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 93.98 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 89.2048 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 90.17 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05b1dae0-02c6-44ca-9e1a-f9f23d2f45d8")
-		)
-		(pin "2"
-			(uuid "ba58c460-6a70-478e-8e35-a2597b925076")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "C33")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8716,95 +8107,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7ea19ee9-335f-4692-ac47-bb0fdd729fbc")
-		(property "Reference" "R3"
-			(at 213.36 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200k"
-			(at 214.63 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.772 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25811"
-			(at 209.55 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1967411-cce1-41c8-81e0-08b76f8e0838")
-		)
-		(pin "2"
-			(uuid "032bfa7a-7c59-4b3f-8347-9d33ab217267")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 39.37 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -8824,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 44.958 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8168,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C25804"
 			(at 39.37 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -9533,7 +8835,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 44.958 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +8877,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25803"
+		(property "LCSC" "C25804"
 			(at 39.37 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -10227,6 +9529,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 135.89 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a882eafd-ba25-45b0-90cd-398d959f58a1")
+		(property "Reference" "C15"
+			(at 135.89 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 135.89 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 132.08 75.8952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 135.89 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "100e940d-765e-4190-b44a-d6f2cbd1b671")
+		)
+		(pin "2"
+			(uuid "5fb57806-8d94-4869-923d-6f03b14da2a2")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 67.31 35.56 0)
 		(unit 1)
@@ -10476,96 +9868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b16f4e58-d6b3-4ada-b192-6b3d0079aa99")
-		(property "Reference" "R41"
-			(at 36.83 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 36.83 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.83 42.418 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 36.83 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5b16c78-5e1a-4f8a-b808-81e19c91cd22")
-		)
-		(pin "2"
-			(uuid "51ccf872-8eb3-427e-946a-3e6452d598ab")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 41.91 91.44 90)
 		(unit 1)
@@ -10639,88 +9941,6 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 237.49 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2edb1f4-34a6-4a1c-8ffe-239c312c317b")
-		(property "Reference" "JP4"
-			(at 239.014 45.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 236.2201 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 237.49 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 237.49 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5361aa38-8255-4b74-a186-b27ce2dc295e")
-		)
-		(pin "1"
-			(uuid "96881368-82da-4007-9516-21df4a2d7b0d")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11651,96 +10871,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 38.1 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c14a1472-1130-4e82-8f8f-5d6c7a260ad1")
-		(property "Reference" "R11"
-			(at 38.1 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 38.1 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 38.1 85.598 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 38.1 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f1d23bd-5da8-414a-b40d-5d8667f41891")
-		)
-		(pin "2"
-			(uuid "732e11af-a819-42bd-b01c-6353238a003a")
-		)
-		(instances
-			(project "PEKG"
-				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 124.46 0)
 		(unit 1)
@@ -12237,8 +11367,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 135.89 81.28 90)
+		(lib_id "Device:C")
+		(at 209.55 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12246,29 +11376,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "da41226e-88ee-485d-bea1-08f8dacdd760")
-		(property "Reference" "R16"
-			(at 130.81 80.01 90)
+		(fields_autoplaced yes)
+		(uuid "d7238ef6-8268-41a8-b5d0-e6b379c2ad7b")
+		(property "Reference" "C8"
+			(at 213.36 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 140.97 80.01 90)
+		(property "Value" "10n"
+			(at 213.36 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 135.89 83.058 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 208.5848 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12279,7 +11412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 81.28 0)
+			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +11423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 81.28 0)
+			(at 209.55 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12299,8 +11432,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
-			(at 135.89 81.28 0)
+		(property "LCSC" "C57112"
+			(at 209.55 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12311,15 +11444,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9709ef1a-b4f0-4801-b805-a7de85500c97")
+			(uuid "81989438-4239-46a4-9529-b60568de7b3f")
 		)
 		(pin "2"
-			(uuid "d29ebfb8-2dea-4418-89d7-7101bc16cd00")
+			(uuid "c601cca4-01d0-4036-af39-51d9f20913bc")
 		)
 		(instances
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
-					(reference "R16")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12488,6 +11621,95 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9b5daa3-0955-4f5f-b2fc-131c743fbba2")
+		(property "Reference" "R11"
+			(at 33.02 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 43.18 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 38.1 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 38.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae201b24-3ffd-49a8-ab4d-f3b34b4a5ba3")
+		)
+		(pin "2"
+			(uuid "9a358a76-fe49-482e-a113-6cabd01364c3")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13083,6 +12305,95 @@
 			(project "PEKG"
 				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fabda89a-07a6-4dc4-8732-23b3026ce588")
+		(property "Reference" "R41"
+			(at 31.75 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 41.91 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 36.83 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 36.83 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7a0d930-986f-4c0c-b096-a3db6dc06573")
+		)
+		(pin "2"
+			(uuid "978406f0-0898-48af-8395-2d02d86a56b6")
+		)
+		(instances
+			(project "PEKG"
+				(path "/6b6ace37-3aeb-4177-8f53-de4683f890d9/08c9054c-da89-41a7-9688-42f4044db3d5"
+					(reference "R41")
 					(unit 1)
 				)
 			)
