@@ -1842,7 +1842,7 @@
 		)
 		(uuid "f65c6d8e-571c-4a09-bcc2-869c0e9264df")
 	)
-	(hierarchical_label "+V_{BAT}"
+	(hierarchical_label "V_{cc}"
 		(shape input)
 		(at 139.7 53.34 0)
 		(effects
