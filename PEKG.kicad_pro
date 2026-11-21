@@ -550,7 +550,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PEKG.step",
       "svg": "",
       "vrml": ""
     },
