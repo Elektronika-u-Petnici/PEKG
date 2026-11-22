@@ -2478,7 +2478,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "af024049-d663-4fdd-b412-667c0e04300e")
@@ -2513,7 +2513,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2527,7 +2527,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/6fa30cf5-6cec-42b2-97a9-c587e0c475aa/c0c92a5e-4f64-447d-ab12-5cc50dab2785")
+		(path "/6fa30cf5-6cec-42b2-97a9-c587e0c475aa/c5023588-3f78-4ad4-88be-e3657e1a8183")
 		(sheetname "/Power supply/")
 		(sheetfile "./power_supply.kicad_sch")
 		(units
