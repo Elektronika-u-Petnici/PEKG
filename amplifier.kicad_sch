@@ -2195,10 +2195,10 @@
 		)
 		(uuid "1f515ab3-70e4-411e-8aad-1608fdf8b32a")
 	)
-	(text_box "5x 750 Hz low pass"
+	(text_box "change R10 to 1k\nC33 C32 to 47n"
 		(exclude_from_sim no)
 		(at 67.31 60.96 0)
-		(size 22.86 3.9483)
+		(size 22.86 5.9929)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2236,6 +2236,27 @@
 			(justify left top)
 		)
 		(uuid "39568683-74be-4615-bf63-d02f054d106d")
+	)
+	(text_box "Changer R26 to 20k\n"
+		(exclude_from_sim no)
+		(at 180.34 24.1301 0)
+		(size 22.86 5.0799)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "62d8aa47-33b8-4b6f-9fb7-31a2a8297b78")
 	)
 	(text_box "10x 150 Hz low pass"
 		(exclude_from_sim no)
